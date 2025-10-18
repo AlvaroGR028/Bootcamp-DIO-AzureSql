@@ -103,7 +103,7 @@ O modelo final ficou pronto para:
 ## 🖼️ Imagens do Projeto
 
 ### 1️⃣ Erro no Azure
-Mostra o problema enfrentado ao tentar criar o banco no Azure:
+Mostra o problema enfrentado ao tentar criar o banco no Azure: Apesar de mostrar estar corretamente, após períodos de horas o banco não foi criado. Estando num estado de "carregamento infinito".
 
 ![Erro de Carregamento](ErroCarregamentoInfinito.png)
 

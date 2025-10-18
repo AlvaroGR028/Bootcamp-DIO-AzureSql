@@ -1,0 +1,19 @@
+🧩 Por que usar Mesclar e não Atribuir
+
+No Power BI, as operações Mesclar (Merge) e Atribuir (Append) têm propósitos diferentes:
+
+Mesclar (Merge) → Combina colunas de duas tabelas relacionadas, com base em uma chave comum (ex: código do departamento).
+É usado quando queremos enriquecer os dados de uma tabela com informações complementares de outra.
+
+Atribuir (Append) → Junta linhas de duas tabelas que possuem a mesma estrutura de colunas.
+É usado quando queremos empilhar registros iguais (ex: unir planilhas de vendas de meses diferentes).
+
+No caso de departamento e localização, o objetivo é ligar as informações — mostrar em qual local cada departamento está.
+As tabelas não têm a mesma estrutura, então não faz sentido empilhar (atribuir).
+O correto é mesclar, porque queremos combinar os dados de forma relacional, criando uma tabela única onde cada combinação de departamento + localização seja exclusiva.
+
+Resumindo:
+
+🔹 “Mesclar” = unir informações diferentes, mas relacionadas.
+🔹 “Atribuir” = empilhar dados iguais.
+🔸 Aqui usamos mesclar porque estamos relacionando dados, não somando registros.
